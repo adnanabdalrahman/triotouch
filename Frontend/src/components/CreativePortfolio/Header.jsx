@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
   return (
@@ -7,16 +7,16 @@ function Header() {
         <div className="row">
           <div className="col-lg-10 offset-lg-1 mb-50">
             <div className="text d-flex f-bold">
-              <span>We</span>
+              <span>TRIO</span>
               <div className="img">
-                <img src="/assets/imgs/c1.jpg" alt="" />
+                <img src="/assets/imgs/logo-light.png" alt="" />
               </div>
-              <span>Are</span>
+              <span>TOUCH</span>
             </div>
           </div>
           <div className="col-lg-5">
             <div className="text f-ultra-light">
-              <span>Studio</span>
+              <span>Barbershop</span>
             </div>
           </div>
           <div className="col-lg-3">
@@ -27,19 +27,17 @@ function Header() {
             </div>
           </div>
           <div className="col-lg-4">
-            <p>We are a strategic partner to our clients. We will help you to ideate, design
-              and implement your product from conception to iterative development support,
-              always taking the initiative and working proactively.</p>
-          </div>
-          <div className="col-lg-10 offset-lg-1">
-            <div className="text text-lg text-center mt-50 f-bold">
-              <span>Agency</span>
-            </div>
+            <p>
+              We are a strategic partner to our clients. We will help you to
+              ideate, design and implement your product from conception to
+              iterative development support, always taking the initiative and
+              working proactively.
+            </p>
           </div>
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

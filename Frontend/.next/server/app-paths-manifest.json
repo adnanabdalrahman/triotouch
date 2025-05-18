@@ -1,3 +1,10 @@
 {
+  "/not-found": "app/not-found.js",
+  "/(portfolio)/interactive-inline/page": "app/(portfolio)/interactive-inline/page.js",
+  "/(portfolio)/interactive-vertical/page": "app/(portfolio)/interactive-vertical/page.js",
+  "/(portfolio)/portfolio-fixed-text/page": "app/(portfolio)/portfolio-fixed-text/page.js",
+  "/(projects)/project2/page": "app/(projects)/project2/page.js",
+  "/(portfolio)/portfolio-grid-classic/page": "app/(portfolio)/portfolio-grid-classic/page.js",
+  "/(inner-pages)/contact/page": "app/(inner-pages)/contact/page.js",
   "/page": "app/page.js"
 }
