@@ -10,6 +10,81 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/creative-agency/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/creative-agency/page.js"
+    ],
+    "/(inner-pages)/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(inner-pages)/contact/page.js"
+    ],
+    "/(inner-pages)/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(inner-pages)/about/page.js"
+    ],
+    "/(portfolio)/fullscreen/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/fullscreen/page.js"
+    ],
+    "/(portfolio)/carousel-slider/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/carousel-slider/page.js"
+    ],
+    "/(portfolio)/half-slider/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/half-slider/page.js"
+    ],
+    "/(portfolio)/interactive-full/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/interactive-full/page.js"
+    ],
+    "/(portfolio)/interactive-center/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/interactive-center/page.js"
+    ],
+    "/(portfolio)/interactive-inline/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/interactive-inline/page.js"
+    ],
+    "/(portfolio)/interactive-vertical/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/interactive-vertical/page.js"
+    ],
+    "/(portfolio)/portfolio-fixed-text/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/portfolio-fixed-text/page.js"
+    ],
+    "/(portfolio)/portfolio-grid/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/portfolio-grid/page.js"
+    ],
+    "/(projects)/project2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(projects)/project2/page.js"
+    ],
+    "/(portfolio)/portfolio-grid-classic/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(portfolio)/portfolio-grid-classic/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
