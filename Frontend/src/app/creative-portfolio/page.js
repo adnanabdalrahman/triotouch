@@ -19,10 +19,10 @@ import Contact from "@/components/CreativePortfolio/Contact";
 import Footer from "@/components/Common/Footer2";
 
 export const metadata = {
-  title: "Bayone - Creative Portfolio",
+  title: "TrioTouch",
   icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico",
+    icon: "/assets/imgs/logo-dark.png",
+    shortcut: "/assets/imgs/logo-dark.png",
     other: generateStylesheetObject([
       "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
       "/assets/fonts/mona-sans/style.css",

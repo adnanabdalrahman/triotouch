@@ -1,7 +1,1 @@
-{
-  "/page": "app/page.js",
-  "/creative-portfolio/page": "app/creative-portfolio/page.js",
-  "/creative-agency/page": "app/creative-agency/page.js",
-  "/(inner-pages)/contact/page": "app/(inner-pages)/contact/page.js",
-  "/(portfolio)/fullscreen/page": "app/(portfolio)/fullscreen/page.js"
-}
+{}

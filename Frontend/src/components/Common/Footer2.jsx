@@ -63,8 +63,8 @@ function Footer() {
             </div>
             <div className="col-lg-3">
               <div className="column">
-                <h6 className="sub-title mb-30">Our Office : </h6>
-                <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                <h6 className="sub-title mb-30">Unsere Adresse:</h6>
+                <p>Trio Touch Ostring 6 3006 Bern, Schweiz</p>
                 <h5 className="mt-15 underline">
                   <a href="#0">+2 456 34324 45</a>
                 </h5>
