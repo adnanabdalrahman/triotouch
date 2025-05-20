@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="contact-header section-padding">
+    <header id="contact" className="contact-header section-padding">
       <div className="container mt-100">
         <div className="row justify-content-center">
           <div className="col-12">

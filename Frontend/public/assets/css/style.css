@@ -494,11 +494,44 @@ img {
   overflow: hidden;
 }
 
-.butn-circle:hover span {
+.butn-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 50px;
+  padding: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 7%;
+  position: relative;
+  margin: 0px 10px;
+}
+
+.butn-square > span {
+  position: relative;
+  z-index: 1;
+}
+
+.butn-square:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 7%;
+  background: #f1da78;
+  transform: scale(0);
+  transition: all 0.4s;
+}
+
+.butn-circle:hover span,
+.butn-square:hover span {
   color: #000;
 }
 
-.butn-circle:hover:after {
+.butn-circle:hover:after,
+.butn-square:hover:after {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -521,25 +554,30 @@ img {
   transition: all 0.4s;
 }
 
-.butn-circle.sml {
+.butn-circle.sml,
+.butn-square.sml {
   width: 130px;
   height: 130px;
 }
 
-.butn-circle.sml span {
+.butn-circle.sml span,
+.butn-square.sml span {
   text-transform: capitalize;
   letter-spacing: 0;
 }
 
-.butn-circle.colorbg-2:after {
+.butn-circle.colorbg-2:after,
+.butn-square.colorbg-2:after {
   background: #f08f74;
 }
 
-.butn-circle.colorbg-3:after {
+.butn-circle.colorbg-3:after,
+.butn-square.colorbg-3:after {
   background: #55e6a5;
 }
 
-.butn-circle span {
+.butn-circle span,
+.butn-square span {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 2;
@@ -547,7 +585,8 @@ img {
   z-index: 2;
 }
 
-.butn-circle .circle-star {
+.butn-circle .circle-star,
+.butn-square .circle-star {
   width: 100%;
   height: 100%;
   position: absolute;

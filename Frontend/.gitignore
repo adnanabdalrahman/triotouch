@@ -1,6 +1,6 @@
-node_modules
 # Ignore everything
-*
+/*
 
-# Except these (whitelist the output files)
-!out/
+# But keep the out folder and its contents
+!/out
+!/out/**

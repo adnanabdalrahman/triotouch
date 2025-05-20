@@ -1,23 +1,23 @@
 "use client";
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 function Footer() {
   useEffect(() => {
     handleResize();
-    window.addEventListener('resize', handleResize);
-    () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    () => window.removeEventListener("resize", handleResize);
   }, []);
 
   function handleResize() {
     if (window.innerWidth > 991) {
-      gsap.set('.footer-container', { yPercent: -50 })
-      const uncover = gsap.timeline({ paused: true })
-      uncover.to('.footer-container', { yPercent: 0, ease: 'none' });
+      gsap.set(".footer-container", { yPercent: -50 });
+      const uncover = gsap.timeline({ paused: true });
+      uncover.to(".footer-container", { yPercent: 0, ease: "none" });
 
       ScrollTrigger.create({
-        trigger: 'main',
-        start: 'bottom bottom',
-        end: '+=50%',
+        trigger: "main",
+        start: "bottom bottom",
+        end: "+=50%",
         animation: uncover,
         scrub: true,
       });
@@ -39,24 +39,32 @@ function Footer() {
                 <h6 className="sub-title mb-30">Social Media</h6>
                 <ul className="rest">
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">Facebook</a>
+                    <a href="#0" className="hover-anim">
+                      Facebook
+                    </a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">twitter</a>
+                    <a href="#0" className="hover-anim">
+                      twitter
+                    </a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">LinkedIn</a>
+                    <a href="#0" className="hover-anim">
+                      LinkedIn
+                    </a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">Behance</a>
+                    <a href="#0" className="hover-anim">
+                      Behance
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="column">
-                <h6 className="sub-title mb-30">Our Office : </h6>
-                <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                <h6 className="sub-title mb-30">Unsere Adresse:</h6>
+                <p>Trio Touch Ostring 6 3006 Bern, Schweiz</p>
                 <h5 className="mt-15 underline">
                   <a href="#0">+2 456 34324 45</a>
                 </h5>
@@ -70,13 +78,14 @@ function Footer() {
               <div className="links">
                 <ul className="rest">
                   <li>
-                    <a href="/about" className="animsition-link">FAQ</a>
+                    <a href="#about" className="animsition-link">
+                      About us
+                    </a>
                   </li>
                   <li>
-                    <a href="/about" className="animsition-link">Careers</a>
-                  </li>
-                  <li>
-                    <a href="/contact" className="animsition-link">Contact Us</a>
+                    <a href="#contact" className="animsition-link">
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -85,7 +94,12 @@ function Footer() {
               <div className="copyright d-flex">
                 <div className="ml-auto">
                   <p className="fz-13">
-                    © 2023 Bayone is Proudly Powered by <span className="underline"><a href="https://themeforest.net/user/themescamp" target="_blank">ThemesCamp</a></span>
+                    © 2025 Powered by{" "}
+                    <span className="underline">
+                      <a href="https://ibaweb.de" target="_blank">
+                        Ibaweb
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -94,7 +108,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
