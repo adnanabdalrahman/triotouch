@@ -2,29 +2,19 @@
   {
     "id": 1,
     "numb": "01",
-    "title": "Product Design",
-    "icon": "/assets/imgs/serv-icons/0.png",
-    "content": "We build and activate brands through cultural insight, strategic vision, and the power of emotion across every"
+    "title": "Professionelle Betreuung",
+    "content": "Wir hören zu, verstehen und setzen Ihre Wünsche mit höchster Präzision um."
   },
   {
     "id": 2,
     "numb": "02",
-    "title": "Art Direction",
-    "icon": "/assets/imgs/serv-icons/1.png",
-    "content": "We build and activate brands through cultural insight, strategic vision, and the power of emotion across every"
+    "title": "Erfahrung und Expertise",
+    "content": "Ali und Munzer haben umfassende Erfahrung im Bereich Herrenfrisuren, während Mounalisa Ihr Hautpflege- und Schönheitsbedürfnis mit Fachwissen abdeckt."
   },
   {
     "id": 3,
     "numb": "03",
-    "title": "Web Development",
-    "icon": "/assets/imgs/serv-icons/2.png",
-    "content": "We build and activate brands through cultural insight, strategic vision, and the power of emotion across every"
-  },
-  {
-    "id": 4,
-    "numb": "04",
-    "title": "Branding Strategy",
-    "icon": "/assets/imgs/serv-icons/0.png",
-    "content": "We build and activate brands through cultural insight, strategic vision, and the power of emotion across every"
+    "title": "Zufriedenheit garantiert",
+    "content": "Ihr Wohlbefinden steht an erster Stelle. Wir streben stets danach, dass Sie mit einem Lächeln und einer großartigen Erfahrung aus unserem Salon gehen."
   }
 ]

@@ -14,6 +14,7 @@ import Footer from "@/components/Common/Footer2";
 import Team from "@/components/CreativePortfolio/Team";
 import Map from "@/components/Contact/Header";
 import Intro from "@/components/About/Intro";
+import Services from "@/components/CreativePortfolio/Services";
 
 export const metadata = {
   title: "Bayone - Creative Portfolio",
@@ -36,8 +37,8 @@ export default function CreativePortfolio() {
       <Cursor />
       <div className="noise"></div>
       <ProgressScroll />
-
       <div id="smooth-wrapper">
+        <Navbar borderBottom />
         <Menu />
         <div id="smooth-content">
           <main className="main-bg">
@@ -45,6 +46,7 @@ export default function CreativePortfolio() {
               <Header />
               <Marquee />
               <Intro />
+              <Services />
               <Team />
               <Map />
             </div>

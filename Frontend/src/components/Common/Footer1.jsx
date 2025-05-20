@@ -1,23 +1,23 @@
 "use client";
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 function Footer1({ subBg }) {
   useEffect(() => {
     handleResize();
-    window.addEventListener('resize', handleResize);
-    () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    () => window.removeEventListener("resize", handleResize);
   }, []);
 
   function handleResize() {
     if (window.innerWidth > 991) {
-      gsap.set('.footer-container', { yPercent: -50 })
-      const uncover = gsap.timeline({ paused: true })
-      uncover.to('.footer-container', { yPercent: 0, ease: 'none' });
+      gsap.set(".footer-container", { yPercent: -50 });
+      const uncover = gsap.timeline({ paused: true });
+      uncover.to(".footer-container", { yPercent: 0, ease: "none" });
 
       ScrollTrigger.create({
-        trigger: 'main',
-        start: 'bottom bottom',
-        end: '+=50%',
+        trigger: "main",
+        start: "bottom bottom",
+        end: "+=50%",
         animation: uncover,
         scrub: true,
       });
@@ -25,13 +25,15 @@ function Footer1({ subBg }) {
   }
 
   return (
-    <footer className={`${subBg ? 'sub-bg' : ''}`}>
+    <footer className={`${subBg ? "sub-bg" : ""}`}>
       <div className="footer-container">
         <div className="container pb-80 pt-80 ontop">
           <div className="row">
             <div className="col-lg-6">
               <div className="eml">
-                <h6 className="sub-title opacity-8">we would love to hear from you.</h6>
+                <h6 className="sub-title opacity-8">
+                  we would love to hear from you.
+                </h6>
                 <h2 className="underline fz-60">
                   <a href="#0">hello@Bayone.com</a>
                 </h2>
@@ -49,16 +51,24 @@ function Footer1({ subBg }) {
                 <h6 className="sub-title mb-30">Social Media</h6>
                 <ul className="rest">
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">Facebook</a>
+                    <a href="#0" className="hover-anim">
+                      Facebook
+                    </a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">twitter</a>
+                    <a href="#0" className="hover-anim">
+                      twitter
+                    </a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">LinkedIn</a>
+                    <a href="#0" className="hover-anim">
+                      LinkedIn
+                    </a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">Behance</a>
+                    <a href="#0" className="hover-anim">
+                      Behance
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -80,13 +90,19 @@ function Footer1({ subBg }) {
               <div className="links">
                 <ul className="rest">
                   <li>
-                    <a href="/about" className="animsition-link">FAQ</a>
+                    <a href="/about" className="animsition-link">
+                      FAQ
+                    </a>
                   </li>
                   <li>
-                    <a href="/about" className="animsition-link">Careers</a>
+                    <a href="/about" className="animsition-link">
+                      Careers
+                    </a>
                   </li>
                   <li>
-                    <a href="/contact" className="animsition-link">Contact Us</a>
+                    <a href="/contact" className="animsition-link">
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -94,7 +110,14 @@ function Footer1({ subBg }) {
             <div className="col-lg-6">
               <div className="copyright d-flex">
                 <div className="ml-auto">
-                  <p className="fz-13">© 2023 Bayone is Proudly Powered by <span className="underline"><a href="https://themeforest.net/user/themescamp" target="_blank">ThemesCamp</a></span></p>
+                  <p className="fz-13">
+                    © 2025 Powered by
+                    <span className="underline">
+                      <a href="https://ibaweb.de" target="_blank">
+                        Ibaweb
+                      </a>
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -102,7 +125,7 @@ function Footer1({ subBg }) {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer1
+export default Footer1;

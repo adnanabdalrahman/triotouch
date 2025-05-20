@@ -28,10 +28,10 @@ function Header() {
           </div>
           <div className="col-lg-4">
             <p>
-              We are a strategic partner to our clients. We will help you to
-              ideate, design and implement your product from conception to
-              iterative development support, always taking the initiative and
-              working proactively.
+              Wir sind stolz darauf, in Bern unser erstes Geschäft eröffnet zu
+              haben und freuen uns darauf, unsere Kunden auf eine neue Ebene der
+              Pflege und des Stylings zu führen. Besuchen Sie uns und erleben
+              Sie den Unterschied!
             </p>
           </div>
         </div>
