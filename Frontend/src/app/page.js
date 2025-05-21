@@ -33,6 +33,7 @@ export const metadata = {
 export default function CreativePortfolio() {
   return (
     <body className="crev-portfolio">
+      111
       <LoadingScreen />
       <Cursor />
       <div className="noise"></div>
@@ -54,7 +55,6 @@ export default function CreativePortfolio() {
           <Footer />
         </div>
       </div>
-
       <Script
         src="/assets/js/bootstrap.bundle.min.js"
         strategy="beforeInteractive"
@@ -70,7 +70,6 @@ export default function CreativePortfolio() {
         src="/assets/js/ScrollSmoother.min.js"
         strategy="beforeInteractive"
       />
-
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
     </body>
   );
