@@ -10,17 +10,9 @@ function Footer() {
 
   function handleResize() {
     if (window.innerWidth > 991) {
-      gsap.set(".footer-container", { yPercent: -50 });
+      gsap.set(".footer-container", { yPercent: -10 });
       const uncover = gsap.timeline({ paused: true });
       uncover.to(".footer-container", { yPercent: 0, ease: "none" });
-
-      ScrollTrigger.create({
-        trigger: "main",
-        start: "bottom bottom",
-        end: "+=50%",
-        animation: uncover,
-        scrub: true,
-      });
     }
   }
 

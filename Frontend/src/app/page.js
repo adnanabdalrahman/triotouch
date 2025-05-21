@@ -70,11 +70,7 @@ export default function CreativePortfolio() {
         src="/assets/js/ScrollSmoother.min.js"
         strategy="beforeInteractive"
       />
-      <Script
-        src="/assets/js/ScrollTrigger.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script src="/assets/js/smoother-script.js" strategy="lazyOnload" />
+
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
     </body>
   );
