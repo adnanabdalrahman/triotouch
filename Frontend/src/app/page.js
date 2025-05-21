@@ -44,7 +44,7 @@ export default function CreativePortfolio() {
           <main className="main-bg">
             <div className="main-box main-bg ontop">
               <Header />
-              <Marquee />
+              {/* <Marquee /> */}
               <Intro />
               <Services />
               <Team />
