@@ -4971,8 +4971,8 @@ footer .logo img {
   position: absolute;
   top: 0px;
   bottom: 0px;
-  left: -30px;
-  right: -30px;
+  /* left: -30px;
+  right: -30px; */
   pointer-events: none;
   background: -webkit-linear-gradient(
     right,
