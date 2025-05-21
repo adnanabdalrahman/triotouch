@@ -111,7 +111,7 @@ function Footer1({ subBg }) {
               <div className="copyright d-flex">
                 <div className="ml-auto">
                   <p className="fz-13">
-                    © 2025 Powered by
+                    © 2025 Powered by{" "}
                     <span className="underline">
                       <a href="https://ibaweb.de" target="_blank">
                         Ibaweb

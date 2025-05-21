@@ -44,14 +44,14 @@ function Navbar({ borderBottom }) {
         </div>
         <div className="menu-icon cursor-pointer">
           <a
-            href="#"
+            href="#team"
             className="butn-square"
-            onClick={(e) => {
-              e.preventDefault();
-              document
-                .getElementById("team")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+            // onClick={(e) => {
+            //   e.preventDefault();
+            //   document
+            //     .getElementById("team")
+            //     ?.scrollIntoView({ behavior: "smooth" });
+            // }}
           >
             <span>Book now</span>
           </a>
