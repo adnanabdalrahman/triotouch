@@ -33,7 +33,6 @@ export const metadata = {
 export default function CreativePortfolio() {
   return (
     <body className="crev-portfolio">
-      222
       <LoadingScreen />
       <Cursor />
       <div className="noise"></div>

@@ -19,7 +19,7 @@ function Intro() {
 
   return (
     <section>
-      <div id="about" className="container">
+      <div id="about" className="container section-padding">
         <div className="row">
           <div className="col-lg-10">
             <div className="text">
