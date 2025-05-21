@@ -42,8 +42,8 @@ body.crev-portfolio:after {
   left: 30px;
   right: 30px;
   bottom: 0;
-  /* border-left: 1px solid rgba(255, 255, 255, 0.2);
-  border-right: 1px solid rgba(255, 255, 255, 0.2); */
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 999;
   pointer-events: none;
 }
@@ -4961,7 +4961,7 @@ footer .logo img {
   position: relative;
   overflow: hidden;
   padding: 50px 0;
-  width: calc(100% + 60px);
+  width: calc(100% + 29px);
   margin-left: -30px;
   background: #0c0c0c;
 }
